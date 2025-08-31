@@ -1,0 +1,15 @@
+{
+    // Use o IntelliSense para saber mais sobre os atributos possíveis.
+    // Focalizar para exibir as descrições dos atributos existentes.
+    // Para obter mais informações, acesse: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        
+        {
+            "type": "chrome",
+            "request": "launch",
+            "name": "Open Tema_livre_davi_feldmann_sofia.html",
+            "file": "c:\\Users\\david\\OneDrive\\Documentos\\GitHub\\2025-1-Davi-Debus-prog2-mod2\\2025-2-Davi-Debus-programacao3\\2025-2-Davi-Debus-programacao3\\2025-2-Davi-Debus-programacao3\\HTML\\Tema_livre_davi_feldmann_sofia.html"
+        }
+    ]
+}
