@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>Questao 1</h1>
+        <p>abaixo o layoyut das tabelas a serem implementadas</p>
+    </header>
+
+    <main>
+        <section>
+            <h2>Questao 1 - tabela 3x3</h2>
+            <article>
+                <tabel>
+                    <cacption>Contatos</cacption>
+                    <thead>
+                        <th scope="col">Nome</th>
+                        <th scope="col">Cidade</th>
+                        <th scope="col">|Telefone</th>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Bruna</td><td>Recife</td><td>(81) 3333 9999</td>
+                        </tr>
+                        <tr>
+                            <td>Sergio</td><td>Coritiba</td><td>(63) 4894 6778</td>
+                        </tr>
+                        <tr>
+                            <td>Cleiton</td><td>Salvador</td><td>(83) 4444 5555</td>
+                        </tr>
+                    </tbody>
+                </tabel>
+            </article>
+        </section>
+
+        <section>
+            <h2>Questao 2 - "Caption", "thead" e "tbody"</h2>
+            <article>
+                <table>
+                    <caption>Tabela de cursos ofertados</caption>
+                    <thead>
+                        <tr>
+                            <th scope="col">Curso</th>
+                            <th scope="col">Modaldade</th>
+                            <th scope="col">Cargo horária</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr><td>Redes de Computadores</td><td>Presencial</td><td>80 Horas</td></tr>
+                            <tr><td>Dessenvolvimento de sistemas</td><td>Presencial</td><td>40 Horas</td></tr>
+                            <tr><td>Análise de sistemas</td><td>Remota</td><td>40 Horas</td></tr>
+                        </tbody>
+                    </table>
+                </article>
+            </section>
+        
+            <section>
+                <h2>Questão 3 - "tfoot" (total)</h2>
+                <article>
+                    <table>
+                        <caption>Resumo de vendas (unidades)</caption>
+                        <thead>
+                            <tr>
+                                <th scope="col">Produto</th>
+                                <th scope="col">Jan</th>
+                                <th scope="col">Fev</th>
+                                <th scope="col">Mar</th>
+                            </tr>
+                        </thead>
+
+                        <tbody>
+                            <tr><th scope="row">Teclado<td>25</td><td>30</td><td>28</td></th></tr>
+                            <tr><th scope="row">Mouse<td>65</td><td>10</td><td>8</td></th></tr>
+                            <tr><th scope="row">Headset<td>45</td><td>10</td><td>78</td></th></tr>
+                        </tbody>
+
+                        <tfoot>
+                            <tr>
+                                <th scope="row">Total</th>
+                                <td>83</td>
+                                <td>90</td>
+                                <td>92</td>
+                            </tr>
+                        </tfoot>
+                    </table>
+                </article>
+            </section>
+
+            <section>
+                <h2>Questao 4 - "colspan"</h2>
+                <article>
+                    <table>
+                        <caption>Vendas por mês - 1° Trimestre</caption>
+                        <thead>
+                            <tr>
+                                <th scop="col" colspan="2">Regiao</th>
+                                <th scop="colgroup" rowspan="3">Trimestre 1</th>
+                            </tr>
+                            <tr>
+                                <th scop="col">Jan</th>
+                                <th scop="col">Fev</th>
+                                <th scop="col">Mar</th>
+                            </tr>
+                        <thead>
+                            <tbody>
+                                <tr><th scope="row">Norte</th><td>12</td><td>15</td><td>17</td></tr>
+                                <tr><th scope="row">Sul</th><td>20</td><td>75</td><td>47</td></tr>
+                                <tr><th scope="row">Sudeste</th><td>11</td><td>18</td><td>7</td></tr>
+                            </tbody>
+                    </table>
+                </article>
+            </section>
+
+            <section>
+                <h2>Quaestao 5 - "rowspan" (agrupar por linha)</h2>
+                <article>
+                    <table>
+                        <caption>Departamento e Cargos</caption>
+                        <thead>
+                            <tr>
+                                <th scope="col">Departamneto</th>
+                                <th scope="col">Cargo</th>
+                                <th scope="col">Colaborador</th>
+                            </tr>
+                        </thead>
+
+                        <tbody>
+                            <tr>
+                                <th scope="rowgroup" rowspan="1">TI</th>
+                                <td>Admionistrador de Redes</td>
+                                <td>Pedro</td>
+                            </tr>
+
+                            <tr>
+                                <th scope="rowgroup" rowspan="3">Financeiro</th>
+                                <td>Analista</td>
+                                <td>Claúdio</td>
+                            </tr>
+
+                            <tr>
+                                <td>Assistente</td>
+                                <td>Jonas</td>
+                            </tr>
+
+                            <tr>
+                                <td>Estagiário</td>
+                                <td>Marcos</td>
+                            </tr>
+
+                        </tbody>
+                    </table>
+
+                </article>
+                
+
+            </section>
+        
+    </main>
+
+</body>
+</html>
