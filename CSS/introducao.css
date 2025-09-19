@@ -1,1 +1,90 @@
 /*Introdução CSS*/
+
+/*
+TIPOS DE SELETORES CSS
+
+Seletores de CSS são usados pra definir quais elementos HTML devem receber estiliozação:
+
+    => Seletores de tipo
+    => Seletores de classe
+    => Seletores de ID
+    => Seletores de atributos
+    => Seletores combinadores
+    => Seletores de pseudoclasse
+    => Seletores de pseudoelemento
+    => Seletores universais
+
+Serão trabalhadas duas formas distintas com o seletores:
+    => Definição e implementação
+    => Chamada do seletor
+    
+    
+Seletores de tipo - Sintaxe                  */
+
+p{
+    color: blue;
+}
+
+/*
+Seletores de Classe - Sintaxe
+
+O seletor desse selciona elemnetos HTML com um atributo de classe específico.
+Para selceionar elementos com uma classe específica, escreva um caractere de período (.). seguido pelo Nome da classe.*/
+
+.nome-classe {
+font-weight: bold;
+}
+
+/*
+Seletores de ID - sintaxe
+
+O selteor ID usa o atributo id de um elemento HTML para selecionar um elemento específico;
+O id de um elemento é unico dentro de uma página, de modo que o seletor de id é usado para selcionar um elemento único;
+Para slecionar um elemento com um id específico, escreva um caractere hash, seguido do id do elemento.
+
+
+Seletores de ID    */
+#nome_do_id {
+    text-align: center;
+    color:red;
+}
+
+/*
+Seletores de atributos 
+
+Os seletores de atributo visam elementos com base em seus atributos e valores de atributos  */
+
+input[type = "text"]{
+    border-color: red;
+}
+
+/*
+Seletores Pseudoclasse - Sintaxe        */
+
+a:hover{
+    color: purple;
+}
+
+/*
+Seletroes de pseudoelemento
+Utilizado para estilizar partes específicas de um elemento,como a primeira linha ou a primeira letra.       */
+p::first-letter {
+    font-size: 200%;
+}
+
+/*
+Seletores Universais
+O seletor universal é útil para aplicar um estilo a todos os elementos dentro de um contexto specífico      */
+*{
+    box-sizing: border-box;
+}
+
+/*
+<link rel = "Stylesheert" href="../../CSS/lista_html.css"> 
+    => Maneira de referenciar um arquivo CSS externo   
+*/
+
+/*
+*/
+
+
