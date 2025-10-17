@@ -1,0 +1,109 @@
+:root{
+    --bg:#f6f7fb;
+    --card: ffffff;
+    --muted: #2f343d;
+    --sahdow: 0 8px 24px rgba(34, 40, 60, 0.008);
+    --acent: #6f7cff;
+    --radius: 12px;
+    --max-width: 720px;
+    --gap: 18px;
+
+}
+
+*{
+    box-sizing: border-box;
+}
+
+
+html,body {
+    height: 100%
+}
+
+body {
+    margin: 0;
+    font-family: "inter", sistem-ui, -apple-system, "Segoe UI"
+    , Roboto, "Helvetica Meue", "Arial";
+    background: linear-gradient(180deg, var(--bg), #ffff);
+    color: #111827;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40x 16x;
+}
+
+.container{
+    width: 100%;
+    max-width: var(--max-width);
+    background: var (--card);
+    border-radius: var(--radius);
+    box-shadow: var(--shadow);
+    padding: 28x;
+    border: 1px solid rgba(15, 23, 42, 0.03);    
+}
+
+header{
+    font-weight: 700;
+    font-size: 1.05rem;
+    color: var(--acent);
+    letter-spacing: 0.2px;
+    margin-bottom: 6px;
+}
+
+h1 {
+    margin: 0 0 var(--gap) 0;
+    font-size: 1.35rem;
+    color: #0f172a;
+    font-weight: 600;
+
+}
+
+ul.shopping-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    /*Permite que os itens da lista (<li>) se organizaem de maneira flexível*/
+    display: flex;
+
+    /* Organiza os itens verticalmente, um a baixo do outro, de cima para baixo,
+    alterando o eixo principal de horizontal para vertical  */
+    flex-direction: column;
+
+    /*quando usado com os layouts flexbox ou grid, cria um espaçamento de 12px entre os itens da lista */
+    gap: 12px;
+
+}
+
+ul.shopping-list li{
+    background: linear-gradient(90dg, rgba(111, 124, 255, 0.06), rgba (111, 124, 255, 0.02));
+
+    padding: 12px 14px;
+    border-radius: 10px; /*Aredonda as bordas do gradiente*/
+    display: flex; /*Define o layout dos itens da lista*/
+    justify-content: space-between;
+    font-weight: 500;
+    border: 1px solid rgba (15, 23, 42, 0.03);
+
+    /*DEfine uma animação para os itens da lista quando a pseudo classe, pseudo-classe:hover estiver sido definida */
+    transition: transform.18s ease, box-shadow .18s ease;
+}
+
+ul.shooping-list li::before{
+    content: "";
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin-right: 12px;
+    background: var(--accent);
+    display: inline-block;
+    flex: 0 0 auto;
+    box-shadow: 0 2px 6px rgba(111, 124, 255, 0.18)
+
+}
+
+ul.shooping-list li:hover{
+    transform: ;
+}
+
+
+
+
